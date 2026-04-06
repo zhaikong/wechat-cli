@@ -1,5 +1,8 @@
 """wechat-cli 入口"""
 
+import utils.http_session
+import utils.transport
+import utils.session
 import sys
 
 import click
